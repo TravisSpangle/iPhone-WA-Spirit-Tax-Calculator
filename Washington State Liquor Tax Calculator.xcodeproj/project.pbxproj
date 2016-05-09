@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973D76381592F16C00EF914C /* LoadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D76361592F16C00EF914C /* LoadingScreen.png */; };
+		973D76391592F16C00EF914C /* LoadingScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D76371592F16C00EF914C /* LoadingScreen@2x.png */; };
+		973D763C1592F1AC00EF914C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763B1592F1AC00EF914C /* Default@2x.png */; };
+		973D763E1592F1B600EF914C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763D1592F1B600EF914C /* Default.png */; };
+		973D76401592F3A200EF914C /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763F1592F3A200EF914C /* overlay.png */; };
+		9756AECC1597EC050072D4FD /* Ticks.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECA1597EC050072D4FD /* Ticks.PNG */; };
+		9756AECD1597EC050072D4FD /* Ticks@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECB1597EC050072D4FD /* Ticks@2x.PNG */; };
+		9756AED11597F1DC0072D4FD /* Info Button.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECF1597F1DC0072D4FD /* Info Button.PNG */; };
+		9756AED21597F1DC0072D4FD /* Info Button@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED01597F1DC0072D4FD /* Info Button@2x.PNG */; };
+		9756AED51597F4120072D4FD /* pickers.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED31597F4120072D4FD /* pickers.PNG */; };
+		9756AED61597F4120072D4FD /* pickers@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED41597F4120072D4FD /* pickers@2x.PNG */; };
+		9756AEDA1597F8200072D4FD /* InfoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756AED81597F8200072D4FD /* InfoPageViewController.m */; };
+		9756AEDB1597F8200072D4FD /* InfoPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED91597F8200072D4FD /* InfoPageViewController.xib */; };
+		9756AEDE159805B50072D4FD /* InfoPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AEDC159805B50072D4FD /* InfoPage.PNG */; };
+		9756AEDF159805B50072D4FD /* InfoPage@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AEDD159805B50072D4FD /* InfoPage@2x.PNG */; };
+		97802B2E1586E56A0073D0C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B2D1586E56A0073D0C7 /* UIKit.framework */; };
+		97802B301586E56A0073D0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B2F1586E56A0073D0C7 /* Foundation.framework */; };
+		97802B321586E56A0073D0C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B311586E56A0073D0C7 /* CoreGraphics.framework */; };
+		97802B381586E56A0073D0C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97802B361586E56A0073D0C7 /* InfoPlist.strings */; };
+		97802B3A1586E56A0073D0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B391586E56A0073D0C7 /* main.m */; };
+		97802B3E1586E56A0073D0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B3D1586E56A0073D0C7 /* AppDelegate.m */; };
+		97802B411586E56A0073D0C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B401586E56A0073D0C7 /* ViewController.m */; };
+		97802B441586E56A0073D0C7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97802B421586E56A0073D0C7 /* ViewController.xib */; };
+		97802B5E1589914C0073D0C7 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B5D1589914C0073D0C7 /* thumb.png */; };
+		97802B65158A363A0073D0C7 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B63158A363A0073D0C7 /* Background.png */; };
+		97802B66158A363A0073D0C7 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B64158A363A0073D0C7 /* Background@2x.png */; };
+		97802B75158AD9780073D0C7 /* AFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B6E158AD9780073D0C7 /* AFPickerView.m */; };
+		97802B76158AD9780073D0C7 /* pickerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B6F158AD9780073D0C7 /* pickerBackground.png */; };
+		97802B77158AD9780073D0C7 /* pickerBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B70158AD9780073D0C7 /* pickerBackground@2x.png */; };
+		97802B78158AD9780073D0C7 /* pickerGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B71158AD9780073D0C7 /* pickerGlass.png */; };
+		97802B79158AD9780073D0C7 /* pickerGlass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B72158AD9780073D0C7 /* pickerGlass@2x.png */; };
+		97802B7A158AD9780073D0C7 /* pickerShadows.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B73158AD9780073D0C7 /* pickerShadows.png */; };
+		97802B7B158AD9780073D0C7 /* pickerShadows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B74158AD9780073D0C7 /* pickerShadows@2x.png */; };
+		97802B7D158AFC360073D0C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B7C158AFC360073D0C7 /* QuartzCore.framework */; };
+		97BED49415942F4E00FCBCA7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49315942F4E00FCBCA7 /* icon@2x.png */; };
+		97BED49715942F8D00FCBCA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49615942F8D00FCBCA7 /* icon.png */; };
+		97BED49915942FC400FCBCA7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49815942FC400FCBCA7 /* icon@2x.png */; };
+		97BED49B15942FC900FCBCA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49A15942FC900FCBCA7 /* icon.png */; };
+		97EC77E415A6C80100E39F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B391586E56A0073D0C7 /* main.m */; };
+		97EC77E515A6C80100E39F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B3D1586E56A0073D0C7 /* AppDelegate.m */; };
+		97EC77E615A6C80100E39F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B401586E56A0073D0C7 /* ViewController.m */; };
+		97EC77E715A6C80100E39F65 /* AFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97802B6E158AD9780073D0C7 /* AFPickerView.m */; };
+		97EC77E815A6C80100E39F65 /* InfoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756AED81597F8200072D4FD /* InfoPageViewController.m */; };
+		97EC77EA15A6C80100E39F65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B7C158AFC360073D0C7 /* QuartzCore.framework */; };
+		97EC77EB15A6C80100E39F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B2D1586E56A0073D0C7 /* UIKit.framework */; };
+		97EC77EC15A6C80100E39F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B2F1586E56A0073D0C7 /* Foundation.framework */; };
+		97EC77ED15A6C80100E39F65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802B311586E56A0073D0C7 /* CoreGraphics.framework */; };
+		97EC77EF15A6C80100E39F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97802B361586E56A0073D0C7 /* InfoPlist.strings */; };
+		97EC77F015A6C80100E39F65 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97802B421586E56A0073D0C7 /* ViewController.xib */; };
+		97EC77F215A6C80100E39F65 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B5D1589914C0073D0C7 /* thumb.png */; };
+		97EC77F315A6C80100E39F65 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B63158A363A0073D0C7 /* Background.png */; };
+		97EC77F415A6C80100E39F65 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B64158A363A0073D0C7 /* Background@2x.png */; };
+		97EC77F515A6C80100E39F65 /* pickerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B6F158AD9780073D0C7 /* pickerBackground.png */; };
+		97EC77F615A6C80100E39F65 /* pickerBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B70158AD9780073D0C7 /* pickerBackground@2x.png */; };
+		97EC77F715A6C80100E39F65 /* pickerGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B71158AD9780073D0C7 /* pickerGlass.png */; };
+		97EC77F815A6C80100E39F65 /* pickerGlass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B72158AD9780073D0C7 /* pickerGlass@2x.png */; };
+		97EC77F915A6C80100E39F65 /* pickerShadows.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B73158AD9780073D0C7 /* pickerShadows.png */; };
+		97EC77FA15A6C80100E39F65 /* pickerShadows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97802B74158AD9780073D0C7 /* pickerShadows@2x.png */; };
+		97EC77FB15A6C80100E39F65 /* LoadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D76361592F16C00EF914C /* LoadingScreen.png */; };
+		97EC77FC15A6C80100E39F65 /* LoadingScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D76371592F16C00EF914C /* LoadingScreen@2x.png */; };
+		97EC77FD15A6C80100E39F65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763B1592F1AC00EF914C /* Default@2x.png */; };
+		97EC77FE15A6C80100E39F65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763D1592F1B600EF914C /* Default.png */; };
+		97EC77FF15A6C80100E39F65 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 973D763F1592F3A200EF914C /* overlay.png */; };
+		97EC780015A6C80100E39F65 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49315942F4E00FCBCA7 /* icon@2x.png */; };
+		97EC780115A6C80100E39F65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49615942F8D00FCBCA7 /* icon.png */; };
+		97EC780215A6C80100E39F65 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49815942FC400FCBCA7 /* icon@2x.png */; };
+		97EC780315A6C80100E39F65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BED49A15942FC900FCBCA7 /* icon.png */; };
+		97EC780415A6C80100E39F65 /* Ticks.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECA1597EC050072D4FD /* Ticks.PNG */; };
+		97EC780515A6C80100E39F65 /* Ticks@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECB1597EC050072D4FD /* Ticks@2x.PNG */; };
+		97EC780615A6C80100E39F65 /* Info Button.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AECF1597F1DC0072D4FD /* Info Button.PNG */; };
+		97EC780715A6C80100E39F65 /* Info Button@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED01597F1DC0072D4FD /* Info Button@2x.PNG */; };
+		97EC780815A6C80100E39F65 /* pickers.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED31597F4120072D4FD /* pickers.PNG */; };
+		97EC780915A6C80100E39F65 /* pickers@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED41597F4120072D4FD /* pickers@2x.PNG */; };
+		97EC780A15A6C80100E39F65 /* InfoPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9756AED91597F8200072D4FD /* InfoPageViewController.xib */; };
+		97EC780B15A6C80100E39F65 /* InfoPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AEDC159805B50072D4FD /* InfoPage.PNG */; };
+		97EC780C15A6C80100E39F65 /* InfoPage@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9756AEDD159805B50072D4FD /* InfoPage@2x.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		973D76361592F16C00EF914C /* LoadingScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadingScreen.png; sourceTree = "<group>"; };
+		973D76371592F16C00EF914C /* LoadingScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoadingScreen@2x.png"; sourceTree = "<group>"; };
+		973D763B1592F1AC00EF914C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		973D763D1592F1B600EF914C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		973D763F1592F3A200EF914C /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay.png; path = ../../../../Desktop/overlay.png; sourceTree = "<group>"; };
+		9756AECA1597EC050072D4FD /* Ticks.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ticks.PNG; sourceTree = "<group>"; };
+		9756AECB1597EC050072D4FD /* Ticks@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ticks@2x.PNG"; sourceTree = "<group>"; };
+		9756AECF1597F1DC0072D4FD /* Info Button.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info Button.PNG"; sourceTree = "<group>"; };
+		9756AED01597F1DC0072D4FD /* Info Button@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info Button@2x.PNG"; sourceTree = "<group>"; };
+		9756AED31597F4120072D4FD /* pickers.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickers.PNG; sourceTree = "<group>"; };
+		9756AED41597F4120072D4FD /* pickers@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickers@2x.PNG"; sourceTree = "<group>"; };
+		9756AED71597F8200072D4FD /* InfoPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPageViewController.h; sourceTree = "<group>"; };
+		9756AED81597F8200072D4FD /* InfoPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPageViewController.m; sourceTree = "<group>"; };
+		9756AED91597F8200072D4FD /* InfoPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoPageViewController.xib; sourceTree = "<group>"; };
+		9756AEDC159805B50072D4FD /* InfoPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoPage.PNG; sourceTree = "<group>"; };
+		9756AEDD159805B50072D4FD /* InfoPage@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoPage@2x.PNG"; sourceTree = "<group>"; };
+		97802B291586E5690073D0C7 /* Washington State Liquor Tax Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Washington State Liquor Tax Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97802B2D1586E56A0073D0C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		97802B2F1586E56A0073D0C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97802B311586E56A0073D0C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97802B351586E56A0073D0C7 /* Washington State Liquor Tax Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Washington State Liquor Tax Calculator-Info.plist"; sourceTree = "<group>"; };
+		97802B371586E56A0073D0C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97802B391586E56A0073D0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97802B3B1586E56A0073D0C7 /* Washington State Liquor Tax Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Washington State Liquor Tax Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		97802B3C1586E56A0073D0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97802B3D1586E56A0073D0C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97802B3F1586E56A0073D0C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97802B401586E56A0073D0C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97802B431586E56A0073D0C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		97802B5D1589914C0073D0C7 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		97802B63158A363A0073D0C7 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		97802B64158A363A0073D0C7 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		97802B6D158AD9780073D0C7 /* AFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPickerView.h; sourceTree = "<group>"; };
+		97802B6E158AD9780073D0C7 /* AFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPickerView.m; sourceTree = "<group>"; };
+		97802B6F158AD9780073D0C7 /* pickerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerBackground.png; sourceTree = "<group>"; };
+		97802B70158AD9780073D0C7 /* pickerBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerBackground@2x.png"; sourceTree = "<group>"; };
+		97802B71158AD9780073D0C7 /* pickerGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerGlass.png; sourceTree = "<group>"; };
+		97802B72158AD9780073D0C7 /* pickerGlass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerGlass@2x.png"; sourceTree = "<group>"; };
+		97802B73158AD9780073D0C7 /* pickerShadows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerShadows.png; sourceTree = "<group>"; };
+		97802B74158AD9780073D0C7 /* pickerShadows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerShadows@2x.png"; sourceTree = "<group>"; };
+		97802B7C158AFC360073D0C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		97BED49315942F4E00FCBCA7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		97BED49615942F8D00FCBCA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		97BED49815942FC400FCBCA7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		97BED49A15942FC900FCBCA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		97EC781015A6C80100E39F65 /* Washington State Liquor Tax Calculator copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Washington State Liquor Tax Calculator copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EC781215A6C80200E39F65 /* Washington State Liquor Tax Calculator copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Washington State Liquor Tax Calculator copy-Info.plist"; path = "/Users/spangltk/Documents/iPhone/WAts my tax?/Washington State Liquor Tax Calculator copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97802B261586E5690073D0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97802B7D158AFC360073D0C7 /* QuartzCore.framework in Frameworks */,
+				97802B2E1586E56A0073D0C7 /* UIKit.framework in Frameworks */,
+				97802B301586E56A0073D0C7 /* Foundation.framework in Frameworks */,
+				97802B321586E56A0073D0C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC77E915A6C80100E39F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC77EA15A6C80100E39F65 /* QuartzCore.framework in Frameworks */,
+				97EC77EB15A6C80100E39F65 /* UIKit.framework in Frameworks */,
+				97EC77EC15A6C80100E39F65 /* Foundation.framework in Frameworks */,
+				97EC77ED15A6C80100E39F65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97802B1E1586E5690073D0C7 = {
+			isa = PBXGroup;
+			children = (
+				97BED49A15942FC900FCBCA7 /* icon.png */,
+				97BED49815942FC400FCBCA7 /* icon@2x.png */,
+				973D763D1592F1B600EF914C /* Default.png */,
+				973D763B1592F1AC00EF914C /* Default@2x.png */,
+				97802B331586E56A0073D0C7 /* WAts my tax? */,
+				97802B2C1586E56A0073D0C7 /* Frameworks */,
+				97802B2A1586E56A0073D0C7 /* Products */,
+				97EC781215A6C80200E39F65 /* Washington State Liquor Tax Calculator copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		97802B2A1586E56A0073D0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97802B291586E5690073D0C7 /* Washington State Liquor Tax Calculator.app */,
+				97EC781015A6C80100E39F65 /* Washington State Liquor Tax Calculator copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97802B2C1586E56A0073D0C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97802B7C158AFC360073D0C7 /* QuartzCore.framework */,
+				97802B2D1586E56A0073D0C7 /* UIKit.framework */,
+				97802B2F1586E56A0073D0C7 /* Foundation.framework */,
+				97802B311586E56A0073D0C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97802B331586E56A0073D0C7 /* WAts my tax? */ = {
+			isa = PBXGroup;
+			children = (
+				97802B6C158AD9780073D0C7 /* AFPickerView */,
+				97802B52158873DF0073D0C7 /* images */,
+				97802B3C1586E56A0073D0C7 /* AppDelegate.h */,
+				97802B3D1586E56A0073D0C7 /* AppDelegate.m */,
+				97802B3F1586E56A0073D0C7 /* ViewController.h */,
+				97802B401586E56A0073D0C7 /* ViewController.m */,
+				97802B421586E56A0073D0C7 /* ViewController.xib */,
+				97802B341586E56A0073D0C7 /* Supporting Files */,
+				9756AED71597F8200072D4FD /* InfoPageViewController.h */,
+				9756AED81597F8200072D4FD /* InfoPageViewController.m */,
+				9756AED91597F8200072D4FD /* InfoPageViewController.xib */,
+			);
+			path = "WAts my tax?";
+			sourceTree = "<group>";
+		};
+		97802B341586E56A0073D0C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97802B351586E56A0073D0C7 /* Washington State Liquor Tax Calculator-Info.plist */,
+				97802B361586E56A0073D0C7 /* InfoPlist.strings */,
+				97802B391586E56A0073D0C7 /* main.m */,
+				97802B3B1586E56A0073D0C7 /* Washington State Liquor Tax Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97802B52158873DF0073D0C7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9756AEDC159805B50072D4FD /* InfoPage.PNG */,
+				9756AEDD159805B50072D4FD /* InfoPage@2x.PNG */,
+				97BED49315942F4E00FCBCA7 /* icon@2x.png */,
+				97BED49615942F8D00FCBCA7 /* icon.png */,
+				9756AED31597F4120072D4FD /* pickers.PNG */,
+				9756AED41597F4120072D4FD /* pickers@2x.PNG */,
+				973D763F1592F3A200EF914C /* overlay.png */,
+				97802B63158A363A0073D0C7 /* Background.png */,
+				9756AECF1597F1DC0072D4FD /* Info Button.PNG */,
+				9756AED01597F1DC0072D4FD /* Info Button@2x.PNG */,
+				973D76361592F16C00EF914C /* LoadingScreen.png */,
+				9756AECA1597EC050072D4FD /* Ticks.PNG */,
+				9756AECB1597EC050072D4FD /* Ticks@2x.PNG */,
+				973D76371592F16C00EF914C /* LoadingScreen@2x.png */,
+				97802B64158A363A0073D0C7 /* Background@2x.png */,
+				97802B5D1589914C0073D0C7 /* thumb.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		97802B6C158AD9780073D0C7 /* AFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				97802B6D158AD9780073D0C7 /* AFPickerView.h */,
+				97802B6E158AD9780073D0C7 /* AFPickerView.m */,
+				97802B6F158AD9780073D0C7 /* pickerBackground.png */,
+				97802B70158AD9780073D0C7 /* pickerBackground@2x.png */,
+				97802B71158AD9780073D0C7 /* pickerGlass.png */,
+				97802B72158AD9780073D0C7 /* pickerGlass@2x.png */,
+				97802B73158AD9780073D0C7 /* pickerShadows.png */,
+				97802B74158AD9780073D0C7 /* pickerShadows@2x.png */,
+			);
+			path = AFPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97802B281586E5690073D0C7 /* Washington State Liquor Tax Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97802B471586E56A0073D0C7 /* Build configuration list for PBXNativeTarget "Washington State Liquor Tax Calculator" */;
+			buildPhases = (
+				97802B251586E5690073D0C7 /* Sources */,
+				97802B261586E5690073D0C7 /* Frameworks */,
+				97802B271586E5690073D0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Washington State Liquor Tax Calculator";
+			productName = "WAts my tax?";
+			productReference = 97802B291586E5690073D0C7 /* Washington State Liquor Tax Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EC77E215A6C80100E39F65 /* App Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EC780D15A6C80100E39F65 /* Build configuration list for PBXNativeTarget "App Store" */;
+			buildPhases = (
+				97EC77E315A6C80100E39F65 /* Sources */,
+				97EC77E915A6C80100E39F65 /* Frameworks */,
+				97EC77EE15A6C80100E39F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Store";
+			productName = "WAts my tax?";
+			productReference = 97EC781015A6C80100E39F65 /* Washington State Liquor Tax Calculator copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97802B201586E5690073D0C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					97EC77E215A6C80100E39F65 = {
+						DevelopmentTeam = 66JNH5ZZF4;
+					};
+				};
+			};
+			buildConfigurationList = 97802B231586E5690073D0C7 /* Build configuration list for PBXProject "Washington State Liquor Tax Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97802B1E1586E5690073D0C7;
+			productRefGroup = 97802B2A1586E56A0073D0C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97802B281586E5690073D0C7 /* Washington State Liquor Tax Calculator */,
+				97EC77E215A6C80100E39F65 /* App Store */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97802B271586E5690073D0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97802B381586E56A0073D0C7 /* InfoPlist.strings in Resources */,
+				97802B441586E56A0073D0C7 /* ViewController.xib in Resources */,
+				97802B5E1589914C0073D0C7 /* thumb.png in Resources */,
+				97802B65158A363A0073D0C7 /* Background.png in Resources */,
+				97802B66158A363A0073D0C7 /* Background@2x.png in Resources */,
+				97802B76158AD9780073D0C7 /* pickerBackground.png in Resources */,
+				97802B77158AD9780073D0C7 /* pickerBackground@2x.png in Resources */,
+				97802B78158AD9780073D0C7 /* pickerGlass.png in Resources */,
+				97802B79158AD9780073D0C7 /* pickerGlass@2x.png in Resources */,
+				97802B7A158AD9780073D0C7 /* pickerShadows.png in Resources */,
+				97802B7B158AD9780073D0C7 /* pickerShadows@2x.png in Resources */,
+				973D76381592F16C00EF914C /* LoadingScreen.png in Resources */,
+				973D76391592F16C00EF914C /* LoadingScreen@2x.png in Resources */,
+				973D763C1592F1AC00EF914C /* Default@2x.png in Resources */,
+				973D763E1592F1B600EF914C /* Default.png in Resources */,
+				973D76401592F3A200EF914C /* overlay.png in Resources */,
+				97BED49415942F4E00FCBCA7 /* icon@2x.png in Resources */,
+				97BED49715942F8D00FCBCA7 /* icon.png in Resources */,
+				97BED49915942FC400FCBCA7 /* icon@2x.png in Resources */,
+				97BED49B15942FC900FCBCA7 /* icon.png in Resources */,
+				9756AECC1597EC050072D4FD /* Ticks.PNG in Resources */,
+				9756AECD1597EC050072D4FD /* Ticks@2x.PNG in Resources */,
+				9756AED11597F1DC0072D4FD /* Info Button.PNG in Resources */,
+				9756AED21597F1DC0072D4FD /* Info Button@2x.PNG in Resources */,
+				9756AED51597F4120072D4FD /* pickers.PNG in Resources */,
+				9756AED61597F4120072D4FD /* pickers@2x.PNG in Resources */,
+				9756AEDB1597F8200072D4FD /* InfoPageViewController.xib in Resources */,
+				9756AEDE159805B50072D4FD /* InfoPage.PNG in Resources */,
+				9756AEDF159805B50072D4FD /* InfoPage@2x.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC77EE15A6C80100E39F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC77EF15A6C80100E39F65 /* InfoPlist.strings in Resources */,
+				97EC77F015A6C80100E39F65 /* ViewController.xib in Resources */,
+				97EC77F215A6C80100E39F65 /* thumb.png in Resources */,
+				97EC77F315A6C80100E39F65 /* Background.png in Resources */,
+				97EC77F415A6C80100E39F65 /* Background@2x.png in Resources */,
+				97EC77F515A6C80100E39F65 /* pickerBackground.png in Resources */,
+				97EC77F615A6C80100E39F65 /* pickerBackground@2x.png in Resources */,
+				97EC77F715A6C80100E39F65 /* pickerGlass.png in Resources */,
+				97EC77F815A6C80100E39F65 /* pickerGlass@2x.png in Resources */,
+				97EC77F915A6C80100E39F65 /* pickerShadows.png in Resources */,
+				97EC77FA15A6C80100E39F65 /* pickerShadows@2x.png in Resources */,
+				97EC77FB15A6C80100E39F65 /* LoadingScreen.png in Resources */,
+				97EC77FC15A6C80100E39F65 /* LoadingScreen@2x.png in Resources */,
+				97EC77FD15A6C80100E39F65 /* Default@2x.png in Resources */,
+				97EC77FE15A6C80100E39F65 /* Default.png in Resources */,
+				97EC77FF15A6C80100E39F65 /* overlay.png in Resources */,
+				97EC780015A6C80100E39F65 /* icon@2x.png in Resources */,
+				97EC780115A6C80100E39F65 /* icon.png in Resources */,
+				97EC780215A6C80100E39F65 /* icon@2x.png in Resources */,
+				97EC780315A6C80100E39F65 /* icon.png in Resources */,
+				97EC780415A6C80100E39F65 /* Ticks.PNG in Resources */,
+				97EC780515A6C80100E39F65 /* Ticks@2x.PNG in Resources */,
+				97EC780615A6C80100E39F65 /* Info Button.PNG in Resources */,
+				97EC780715A6C80100E39F65 /* Info Button@2x.PNG in Resources */,
+				97EC780815A6C80100E39F65 /* pickers.PNG in Resources */,
+				97EC780915A6C80100E39F65 /* pickers@2x.PNG in Resources */,
+				97EC780A15A6C80100E39F65 /* InfoPageViewController.xib in Resources */,
+				97EC780B15A6C80100E39F65 /* InfoPage.PNG in Resources */,
+				97EC780C15A6C80100E39F65 /* InfoPage@2x.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97802B251586E5690073D0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97802B3A1586E56A0073D0C7 /* main.m in Sources */,
+				97802B3E1586E56A0073D0C7 /* AppDelegate.m in Sources */,
+				97802B411586E56A0073D0C7 /* ViewController.m in Sources */,
+				97802B75158AD9780073D0C7 /* AFPickerView.m in Sources */,
+				9756AEDA1597F8200072D4FD /* InfoPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC77E315A6C80100E39F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC77E415A6C80100E39F65 /* main.m in Sources */,
+				97EC77E515A6C80100E39F65 /* AppDelegate.m in Sources */,
+				97EC77E615A6C80100E39F65 /* ViewController.m in Sources */,
+				97EC77E715A6C80100E39F65 /* AFPickerView.m in Sources */,
+				97EC77E815A6C80100E39F65 /* InfoPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97802B361586E56A0073D0C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97802B371586E56A0073D0C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97802B421586E56A0073D0C7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97802B431586E56A0073D0C7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97802B451586E56A0073D0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Travis Spangle (T4W7Y6SX7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = 66JNH5ZZF4.com.travisspangle.washingtonstateliquortaxcalculator;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_MODE_FLAG = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97802B461586E56A0073D0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Travis Spangle (T4W7Y6SX7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_MODE_FLAG = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97802B481586E56A0073D0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WAts my tax?/Washington State Liquor Tax Calculator-Prefix.pch";
+				INFOPLIST_FILE = "WAts my tax?/Washington State Liquor Tax Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97802B491586E56A0073D0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WAts my tax?/Washington State Liquor Tax Calculator-Prefix.pch";
+				INFOPLIST_FILE = "WAts my tax?/Washington State Liquor Tax Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		97EC780E15A6C80100E39F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WAts my tax?/Washington State Liquor Tax Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Washington State Liquor Tax Calculator copy-Info.plist";
+				PRODUCT_NAME = "Washington State Liquor Tax Calculator copy";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97EC780F15A6C80100E39F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WAts my tax?/Washington State Liquor Tax Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Washington State Liquor Tax Calculator copy-Info.plist";
+				PRODUCT_NAME = "Washington State Liquor Tax Calculator copy";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97802B231586E5690073D0C7 /* Build configuration list for PBXProject "Washington State Liquor Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97802B451586E56A0073D0C7 /* Debug */,
+				97802B461586E56A0073D0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97802B471586E56A0073D0C7 /* Build configuration list for PBXNativeTarget "Washington State Liquor Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97802B481586E56A0073D0C7 /* Debug */,
+				97802B491586E56A0073D0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EC780D15A6C80100E39F65 /* Build configuration list for PBXNativeTarget "App Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EC780E15A6C80100E39F65 /* Debug */,
+				97EC780F15A6C80100E39F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97802B201586E5690073D0C7 /* Project object */;
+}
